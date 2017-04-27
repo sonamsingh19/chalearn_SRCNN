@@ -1,4 +1,3 @@
-# chalearn_SRCNN
 
 This repo contains code for super resolution intended for competition at NTIRE  CVPR 2017 workshop `http://www.vision.ee.ethz.ch/ntire17/ <http://www.vision.ee.ethz.ch/ntire17/>`_
  workshop hosted at `codalab link <https://competitions.codalab.org/competitions/16308#results>`_
