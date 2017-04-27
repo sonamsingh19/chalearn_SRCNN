@@ -1,7 +1,7 @@
 This repo contains code for super resolution intended for competition at NTIRE  CVPR 2017 workshop `http://www.vision.ee.ethz.ch/ntire17/ <http://www.vision.ee.ethz.ch/ntire17/>`_
  workshop hosted at `codalab link <https://competitions.codalab.org/competitions/16308#results>`_
 
-Two type of models are explored:
+**Two type of models are explored:**
 
 1. Upsample (Upsample in between)
 
@@ -10,3 +10,15 @@ Two type of models are explored:
 2. SRCNN (first bicubic and then CNN)
 
 .. image:: https://raw.githubusercontent.com/sonamsingh19/chalearn_SRCNN/master/images/scale3.png
+
+**Results**
+
+For Track : unknown (don't know about degrading factors):
+ X4: 25.33 (validation) which puts in Top-10 in the leaderboard with ``model#2``. (patch size=30)
+ 
+*Unfortunately:* For bicubic track, I wasn't able to perform better than bicubic baseline. I guess GAN needs to be explored.
+
+
+The only modification required to use your own model is to change *keras_model_pyramid.py*.
+
+ 
