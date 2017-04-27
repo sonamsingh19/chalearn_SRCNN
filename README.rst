@@ -1,4 +1,8 @@
+
 This repo contains code for super resolution intended for competition at NTIRE  CVPR 2017 workshop `http://www.vision.ee.ethz.ch/ntire17/ <http://www.vision.ee.ethz.ch/ntire17/>`_ workshop hosted at `codalab link <https://competitions.codalab.org/competitions/16308#results>`_
+
+Summary
+------------------
 
 **Two type of models are explored:**
 
@@ -20,6 +24,8 @@ For Track : unknown (unknown degrading factors):
 
 The only modification required to use your own model is to change *keras_model_pyramid.py*.
 
+Execution
+------------------
 **File Structure**
 
 - download.sh : links for downloading datasets
@@ -29,12 +35,18 @@ The only modification required to use your own model is to change *keras_model_p
 - predict_valid_pyramid.py : predict over validation images
 - evaluate_valid.py : To quickly  evaluate for PSNR between images stored in different folder (validation)
 
-Directory Structure..
-------------------
+**Directory Structure for Execution**
+
+For downloaded directory with name SRCNN: Training data needs to be stored in this strcture:
+
+- SRCNN/model_execute_memmap_pyramid_h5py.py
+- SRCNN/DIV2K_train_HR
+- SRCNN/unknown/DIV2K_train_LR_unknown/X4
+- SRCNN/unknown/DIV2K_train_LR_unknown/X3
+- SRCNN/unknown/DIV2K_valid_LR_unknown/X4
 
 
-Run..
-------------------
+**Run**
 
 For Training:
 for unknown:
