@@ -1,5 +1,4 @@
-This repo contains code for super resolution intended for competition at NTIRE  CVPR 2017 workshop `http://www.vision.ee.ethz.ch/ntire17/ <http://www.vision.ee.ethz.ch/ntire17/>`_
- workshop hosted at `codalab link <https://competitions.codalab.org/competitions/16308#results>`_
+This repo contains code for super resolution intended for competition at NTIRE  CVPR 2017 workshop `http://www.vision.ee.ethz.ch/ntire17/ <http://www.vision.ee.ethz.ch/ntire17/>`_ workshop hosted at `codalab link <https://competitions.codalab.org/competitions/16308#results>`_
 
 **Two type of models are explored:**
 
@@ -14,7 +13,7 @@ This repo contains code for super resolution intended for competition at NTIRE  
 **Results**
 
 For Track : unknown (unknown degrading factors):
- X4: 25.33 (validation) which puts in Top-10 in the leaderboard with ``model#2``. (patch size=30)
+**X4: 25.33** (validation) which puts in Top-10 in the leaderboard with ``model#2``. (patch size=30)
  
 *Unfortunately:* For bicubic track, I wasn't able to perform better than bicubic baseline. I guess GAN needs to be explored.
 
