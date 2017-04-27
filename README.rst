@@ -21,4 +21,8 @@ For Track : unknown (don't know about degrading factors):
 
 The only modification required to use your own model is to change *keras_model_pyramid.py*.
 
+File Structure..
+^^^^^^^^^^^^^^^^^^^^^
+- download.sh : links for downloading datasets
+
  
