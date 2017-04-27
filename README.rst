@@ -20,8 +20,8 @@ For Track : unknown (unknown degrading factors):
 
 The only modification required to use your own model is to change *keras_model_pyramid.py*.
 
-File Structure..
-^^^^^^^^^^^^^^^^^^^^^
+**File Structure**
+
 - download.sh : links for downloading datasets
 - generate_patches_parallel_pyramid_h5py.py: generate patches and bicubic interpolations 
 - keras_model_pyramid.py : keras model (model#2) for scale X4 (2 upsample)
@@ -34,7 +34,8 @@ Directory Structure..
 
 
 Run..
-^^^^^^^^^^^^^^^^^^^^^
+------------------
+
 For Training:
 for unknown:
 ``python model_execute_memmap_pyramid_h5py.py unknown 4 train``
