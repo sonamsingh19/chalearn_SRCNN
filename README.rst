@@ -13,7 +13,7 @@ This repo contains code for super resolution intended for competition at NTIRE  
 **Results**
 
 For Track : unknown (unknown degrading factors):
-**X4: 25.33** (validation) which puts in Top-10 in the leaderboard with ``model#2``. (patch size=30)
+**X4: 25.33 PSNR** (validation) which puts in Top-10 in the leaderboard with ``model#2``. (patch size=30)
  
 *Unfortunately:* For bicubic track, I wasn't able to perform better than bicubic baseline. I guess GAN needs to be explored.
 
@@ -28,6 +28,10 @@ File Structure..
 - model_execute_memmap_pyramid_h5py.py : model to be excuted using h5py for batches over saved patches.
 - predict_valid_pyramid.py : predict over validation images
 - evaluate_valid.py : To quickly  evaluate for PSNR between images contained in different folder (validation)
+
+Directory Structure..
+------------------
+
 
 Run..
 ^^^^^^^^^^^^^^^^^^^^^
