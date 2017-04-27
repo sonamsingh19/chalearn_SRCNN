@@ -23,11 +23,11 @@ The only modification required to use your own model is to change *keras_model_p
 File Structure..
 ^^^^^^^^^^^^^^^^^^^^^
 - download.sh : links for downloading datasets
-- generate_patches_parallel_pyramid_h5py.py: generate patches and bicubic interpolations (for scale X3)
-- keras_model_pyramid.py : keras model (model#2) for scale X4
+- generate_patches_parallel_pyramid_h5py.py: generate patches and bicubic interpolations 
+- keras_model_pyramid.py : keras model (model#2) for scale X4 (2 upsample)
 - model_execute_memmap_pyramid_h5py.py : model to be excuted using h5py for batches over saved patches.
 - predict_valid_pyramid.py : predict over validation images
-- evaluate_valid.py : To quickly  evaluate for PSNR between images contained in different folder (validation)
+- evaluate_valid.py : To quickly  evaluate for PSNR between images stored in different folder (validation)
 
 Directory Structure..
 ------------------
