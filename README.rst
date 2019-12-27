@@ -58,5 +58,4 @@ for bicubic:
 For Prediction:
 ``python predict_valid_pyramid.py bicubic 4``
 
-*Coming soon: I'll upload other models and changes soon*
-
+Some of the boilerplate code (PSNR loss etc.) has been borrowed from SRGAN repo: https://github.com/dribnet/srgan
